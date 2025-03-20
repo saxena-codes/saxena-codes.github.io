@@ -16,6 +16,32 @@
         <script src="repo.js"></script>
     </head>
     <body>
+        <h1>Syndicate D - Falklands War</h1>
+        <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+        <df-messenger
+          project-id="edxengine-1344"
+          agent-id="62eff9f1-4c78-4676-95cd-2795e93850eb"
+          language-code="en"
+          max-query-length="-1">
+            <df-messenger-chat-bubble
+                chat-title="Syndicate D">
+              </df-messenger-chat-bubble>
+        </df-messenger>
+        <style>
+          df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Google Sans;
+            --df-messenger-chat-background: #f3f6fc;
+            --df-messenger-message-user-background: #d3e3fd;
+            --df-messenger-message-bot-background: #fff;
+            bottom: 16px;
+            right: 16px;
+          }
+        </style>
+        <!--
         <h1>Saxena Codes</h1>
         <hr />
         <script>
@@ -24,5 +50,6 @@
                 name: 'ProjectEuler'
             })
         </script>
+        -->
     </body>
 </html>
